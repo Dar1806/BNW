@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="dossier_jeu"
+run/main_scene="uid://ley0i3y08hhu"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
