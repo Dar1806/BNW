@@ -1,0 +1,10 @@
+StaticBody2D
+Sprite2D
+CollisionShape2D
+AnimatedSprite2D
+Area2D
+AnimatableBody2D
+Node
+TileMap
+Camera2D
+CharacterBody2D
