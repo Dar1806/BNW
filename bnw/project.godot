@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="BnW"
-run/main_scene="res://assets/scenes/game.tscn"
+run/main_scene="uid://d4nsf3kvia2sk"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[global_group]
+
+Player=""
 
 [input]
 
