@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct12mphelklhk"
-path="res://.godot/imported/Map_Tileset.png-43f50c1fbf8de956247fc6b2fed79bb6.ctex"
+uid="uid://bn00beblecxly"
+path="res://.godot/imported/WhitePlatform12.png-c2472f8b6fcf641b31023ff5d0c37a93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/World/Tilesets/Map_Tileset.png"
-dest_files=["res://.godot/imported/Map_Tileset.png-43f50c1fbf8de956247fc6b2fed79bb6.ctex"]
+source_file="res://assets/sprites/World/Objects/Platforms/White/WhitePlatform12.png"
+dest_files=["res://.godot/imported/WhitePlatform12.png-c2472f8b6fcf641b31023ff5d0c37a93.ctex"]
 
 [params]
 
