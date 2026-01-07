@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://i2q1fiqeu6vc"
-path="res://.godot/imported/White Run.png-d10b3080725eca82288906ab8bc4124f.ctex"
+path="res://.godot/imported/White Run.png-ba940dc40bcf1eb57e07580e3b6f34c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/sprites white/White Run.png"
-dest_files=["res://.godot/imported/White Run.png-d10b3080725eca82288906ab8bc4124f.ctex"]
+source_file="res://assets/sprites/Characters/White/White Run.png"
+dest_files=["res://.godot/imported/White Run.png-ba940dc40bcf1eb57e07580e3b6f34c7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv0e6dtnvf1oa"
-path="res://.godot/imported/White Jump.png-7b791f25329d66dee7d89d0a5f1c5037.ctex"
+uid="uid://d3on2omhls4q3"
+path="res://.godot/imported/BlackPlatform24.png-c5ca346577d247c9dd0db42f89611a5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Characters/White/White Jump.png"
-dest_files=["res://.godot/imported/White Jump.png-7b791f25329d66dee7d89d0a5f1c5037.ctex"]
+source_file="res://assets/sprites/World/Objects/Platforms/Black/BlackPlatform24.png"
+dest_files=["res://.godot/imported/BlackPlatform24.png-c5ca346577d247c9dd0db42f89611a5a.ctex"]
 
 [params]
 
