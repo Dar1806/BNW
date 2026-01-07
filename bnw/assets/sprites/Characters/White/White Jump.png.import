@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i2q1fiqeu6vc"
-path="res://.godot/imported/White Run.png-d10b3080725eca82288906ab8bc4124f.ctex"
+uid="uid://bv0e6dtnvf1oa"
+path="res://.godot/imported/White Jump.png-7b791f25329d66dee7d89d0a5f1c5037.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/sprites white/White Run.png"
-dest_files=["res://.godot/imported/White Run.png-d10b3080725eca82288906ab8bc4124f.ctex"]
+source_file="res://assets/sprites/Characters/White/White Jump.png"
+dest_files=["res://.godot/imported/White Jump.png-7b791f25329d66dee7d89d0a5f1c5037.ctex"]
 
 [params]
 

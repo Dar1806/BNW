@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://l2x1rf151gpu"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+uid="uid://c0jfmc3afbmdu"
+path="res://.godot/imported/WhitePlatform24.png-ad857ce7fd911e81835c4efd7ca47f34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+source_file="res://assets/sprites/World/Objects/Platforms/WhitePlatforms/WhitePlatform24.png"
+dest_files=["res://.godot/imported/WhitePlatform24.png-ad857ce7fd911e81835c4efd7ca47f34.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

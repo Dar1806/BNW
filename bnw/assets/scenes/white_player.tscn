@@ -1,12 +1,28 @@
-[gd_scene load_steps=31 format=3 uid="uid://dkhxpy6ipfe3l"]
+[gd_scene load_steps=32 format=3 uid="uid://dkhxpy6ipfe3l"]
 
-[ext_resource type="Script" uid="uid://7m4xrem6psxm" path="res://white_player.gd" id="1_s3s6w"]
+[ext_resource type="Script" uid="uid://7m4xrem6psxm" path="res://scripts/white_player.gd" id="1_s3s6w"]
 [ext_resource type="Texture2D" uid="uid://bv0e6dtnvf1oa" path="res://assets/sprites/sprites white/White Jump.png" id="2_svqn4"]
 [ext_resource type="Texture2D" uid="uid://i2q1fiqeu6vc" path="res://assets/sprites/sprites white/White Run.png" id="3_xjj66"]
 [ext_resource type="Texture2D" uid="uid://dmaxmrlys3vi6" path="res://assets/sprites/sprites white/White Stand.png" id="4_1o731"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w0rrt"]
 size = Vector2(15, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3s6w"]
+atlas = ExtResource("2_svqn4")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1o731"]
+atlas = ExtResource("2_svqn4")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_svqn4"]
+atlas = ExtResource("2_svqn4")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjj66"]
+atlas = ExtResource("2_svqn4")
+region = Rect2(192, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0qdug"]
 atlas = ExtResource("2_svqn4")
@@ -19,18 +35,6 @@ region = Rect2(48, 0, 48, 48)
 [sub_resource type="AtlasTexture" id="AtlasTexture_qadk2"]
 atlas = ExtResource("2_svqn4")
 region = Rect2(96, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0ev17"]
-atlas = ExtResource("2_svqn4")
-region = Rect2(144, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_d4h78"]
-atlas = ExtResource("2_svqn4")
-region = Rect2(192, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_wnf5g"]
-atlas = ExtResource("2_svqn4")
-region = Rect2(240, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2gsfj"]
 atlas = ExtResource("3_xjj66")
@@ -108,6 +112,28 @@ region = Rect2(432, 0, 48, 48)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_s3s6w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1o731")
+}],
+"loop": true,
+"name": &"jumpdown",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_svqn4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjj66")
+}],
+"loop": true,
+"name": &"jumpmid",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_0qdug")
 }, {
 "duration": 1.0,
@@ -115,18 +141,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qadk2")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0ev17")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_d4h78")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_wnf5g")
 }],
 "loop": true,
-"name": &"jump",
+"name": &"jumpup",
 "speed": 10.0
 }, {
 "frames": [{
@@ -206,5 +223,5 @@ zoom = Vector2(3.5, 3.5)
 
 [node name="Animations" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ay851")
-animation = &"stand"
+animation = &"jumpdown"
 autoplay = "stand"

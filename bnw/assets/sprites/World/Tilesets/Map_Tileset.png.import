@@ -2,16 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://l2x1rf151gpu"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+<<<<<<< HEAD:bnw/assets/sprites/Map_Tileset.png.import
+uid="uid://cccoy71fgjj7h"
+path="res://.godot/imported/Map_Tileset.png-34d12570d3ba1243c2fba55c2c61ed6c.ctex"
+=======
+uid="uid://ct12mphelklhk"
+path="res://.godot/imported/Map_Tileset.png-43f50c1fbf8de956247fc6b2fed79bb6.ctex"
+>>>>>>> 486efff83bbea19ca357e1ba37d184c06234db40:bnw/assets/sprites/World/Tilesets/Map_Tileset.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+source_file="res://assets/sprites/World/Tilesets/Map_Tileset.png"
+dest_files=["res://.godot/imported/Map_Tileset.png-43f50c1fbf8de956247fc6b2fed79bb6.ctex"]
 
 [params]
 
@@ -38,6 +43,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
