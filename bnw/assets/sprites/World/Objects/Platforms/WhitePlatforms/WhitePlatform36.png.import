@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bokqjukmc1uum"
+<<<<<<< HEAD
 path="res://.godot/imported/WhitePlatform36.png-474ed24e1e3ad0ba38d02eeaf9ee0d18.ctex"
+=======
+path="res://.godot/imported/WhitePlatform36.png-b44c6380bd622cb0b5bd4a0aa759e9b2.ctex"
+>>>>>>> 486efff83bbea19ca357e1ba37d184c06234db40
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/sprites/World/Objects/Platforms/WhitePlatforms/WhitePlatform36.png"
 dest_files=["res://.godot/imported/WhitePlatform36.png-474ed24e1e3ad0ba38d02eeaf9ee0d18.ctex"]
+=======
+source_file="res://assets/sprites/World/Objects/Platforms/White/WhitePlatform36.png"
+dest_files=["res://.godot/imported/WhitePlatform36.png-b44c6380bd622cb0b5bd4a0aa759e9b2.ctex"]
+>>>>>>> 486efff83bbea19ca357e1ba37d184c06234db40
 
 [params]
 
