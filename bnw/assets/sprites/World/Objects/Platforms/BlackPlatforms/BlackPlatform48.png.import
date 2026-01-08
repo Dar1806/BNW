@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm8kbg5ll6cmf"
-<<<<<<< HEAD
+uid="uid://dl2oe5r5a0cf1"
 path="res://.godot/imported/BlackPlatform48.png-3f830725d9a15ced6a25d42a6764502d.ctex"
-=======
-path="res://.godot/imported/BlackPlatform48.png-bb58b502ee3af936a4076d7d3f444ead.ctex"
->>>>>>> 486efff83bbea19ca357e1ba37d184c06234db40
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/sprites/World/Objects/Platforms/BlackPlatforms/BlackPlatform48.png"
 dest_files=["res://.godot/imported/BlackPlatform48.png-3f830725d9a15ced6a25d42a6764502d.ctex"]
-=======
-source_file="res://assets/sprites/World/Objects/Platforms/Black/BlackPlatform48.png"
-dest_files=["res://.godot/imported/BlackPlatform48.png-bb58b502ee3af936a4076d7d3f444ead.ctex"]
->>>>>>> 486efff83bbea19ca357e1ba37d184c06234db40
 
 [params]
 
