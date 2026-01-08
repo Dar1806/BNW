@@ -41,5 +41,3 @@ func jump():
 			animated_sprite.play("jumpmid")
 		elif velocity.y > 80.0 :
 			animated_sprite.play("jumpdown")
-		if Input.is_action_pressed("right") or Input.is_action_pressed("left"):
-			
