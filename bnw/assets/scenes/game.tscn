@@ -81,3 +81,5 @@ speed = 250.0
 accel_smooth = 8.0
 friction_smooth = 25.0
 jump_velocity = -320.0
+wall_pushback = 400.0
+wall_gravity = 60.0
