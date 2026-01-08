@@ -35,12 +35,15 @@ func _physics_process(delta: float) -> void:
 		else:
 			animated_sprite.play("run")
 	else :
-		if velocity.y < -80.0:
-			animated_sprite.play("jumpup")
-		elif velocity.y > -80.0 && velocity.y < 80.0 :
-			animated_sprite.play("jumpmid")
-		elif velocity.y > 80.0 :
-			animated_sprite.play("jumpdown")
+		if is_wall_sliding:
+			animated_sprite.play("wallslide")
+		else:
+			if velocity.y < -80.0:
+				animated_sprite.play("jumpup")
+			elif velocity.y > -80.0 && velocity.y < 80.0 :
+				animated_sprite.play("jumpmid")
+			elif velocity.y > 80.0 :
+				animated_sprite.play("jumpdown")
 
 func wall_slide(delta):
 	if is_on_wall() and !is_on_floor():
