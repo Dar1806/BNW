@@ -19,25 +19,27 @@ func _physics_process(delta: float) -> void:
 	else:
 		velocity.x = lerpf(velocity.x, 0.0, friction_smooth * delta)
 
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = jump_velocity
-
 	move_and_slide()
 
 	if direction > 0.0:
 		animated_sprite.flip_h = false
 	elif direction < 0.0:
 		animated_sprite.flip_h = true
-
 	if is_on_floor():
 		if abs(velocity.x) < 10.0:
 			animated_sprite.play("stand")
 		else:
 			animated_sprite.play("run")
-	else:
+
+func jump():
+	if Input.is_action_just_pressed("jump"):
+		if is_on_floor():
+			velocity.y = jump_velocity
 		if velocity.y < -80.0:
 			animated_sprite.play("jumpup")
 		elif velocity.y > -80.0 && velocity.y < 80.0 :
 			animated_sprite.play("jumpmid")
 		elif velocity.y > 80.0 :
 			animated_sprite.play("jumpdown")
+		if Input.is_action_pressed("right") or Input.is_action_pressed("left"):
+			

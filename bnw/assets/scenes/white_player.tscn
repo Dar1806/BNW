@@ -1,9 +1,9 @@
 [gd_scene load_steps=32 format=3 uid="uid://dkhxpy6ipfe3l"]
 
 [ext_resource type="Script" uid="uid://7m4xrem6psxm" path="res://scripts/white_player.gd" id="1_s3s6w"]
-[ext_resource type="Texture2D" uid="uid://bv0e6dtnvf1oa" path="res://assets/sprites/sprites white/White Jump.png" id="2_svqn4"]
-[ext_resource type="Texture2D" uid="uid://i2q1fiqeu6vc" path="res://assets/sprites/sprites white/White Run.png" id="3_xjj66"]
-[ext_resource type="Texture2D" uid="uid://dmaxmrlys3vi6" path="res://assets/sprites/sprites white/White Stand.png" id="4_1o731"]
+[ext_resource type="Texture2D" uid="uid://bv0e6dtnvf1oa" path="res://assets/sprites/Characters/White/White Jump.png" id="2_svqn4"]
+[ext_resource type="Texture2D" uid="uid://i2q1fiqeu6vc" path="res://assets/sprites/Characters/White/White Run.png" id="3_xjj66"]
+[ext_resource type="Texture2D" uid="uid://dmaxmrlys3vi6" path="res://assets/sprites/Characters/White/White Stand.png" id="4_1o731"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w0rrt"]
 size = Vector2(15, 26)
@@ -213,6 +213,10 @@ animations = [{
 
 [node name="White player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_s3s6w")
+speed = null
+accel_smooth = null
+friction_smooth = null
+jump_velocity = null
 
 [node name="Hitbox" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 3)
