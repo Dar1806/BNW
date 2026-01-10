@@ -77,3 +77,4 @@ layer_0/tile_data = PackedInt32Array(65518, 65536, 1, 65519, 65536, 1, 65520, 65
 
 [node name="White player" parent="." instance=ExtResource("2_5gf0t")]
 position = Vector2(-1, -16)
+wall_gravity = 50.0
