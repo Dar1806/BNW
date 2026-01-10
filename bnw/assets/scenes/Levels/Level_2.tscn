@@ -87,4 +87,4 @@ position = Vector2(376, -169.00003)
 rotation = -0.8471186
 
 [node name="Killzone" parent="." instance=ExtResource("4_v8la1")]
-position = Vector2(0, 25)
+position = Vector2(1, 60)
