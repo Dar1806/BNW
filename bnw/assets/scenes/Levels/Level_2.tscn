@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://c7unyp7al2fos"]
+
+[ext_resource type="Texture2D" uid="uid://bfehstbpc3r3v" path="res://assets/sprites/World/Tilesets/Map_Tileset.png" id="1_b4kc7"]
+[ext_resource type="PackedScene" uid="uid://dkhxpy6ipfe3l" path="res://assets/scenes/Characters/white_player.tscn" id="2_tjv37"]
+[ext_resource type="PackedScene" uid="uid://dxd7gujsicimq" path="res://assets/scenes/Props/portal.tscn" id="3_sg444"]
+[ext_resource type="PackedScene" uid="uid://dxlegtf5nc7da" path="res://assets/scenes/Props/killzone.tscn" id="4_v8la1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sg444"]
+texture = ExtResource("1_b4kc7")
+texture_region_size = Vector2i(12, 12)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+2:4/0 = 0
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+4:4/0 = 0
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+6:3/0 = 0
+6:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6, -6, 6, -6, 6, 6, -6, 6)
+
+[sub_resource type="TileSet" id="TileSet_v8la1"]
+tile_size = Vector2i(12, 12)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_sg444")
+
+[node name="Level2" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_v8la1")
+rendering_quadrant_size = 12
+format = 2
+layer_0/tile_data = PackedInt32Array(65534, 65536, 0, 65535, 65536, 0, 0, 65536, 0, 1, 65536, 0, -3, 196608, 1342177281, -65539, 196608, 1342177281, -131075, 196608, 1342177281, -196611, 0, 1342177282, -65534, 196608, 1610612737, -131070, 196608, 1610612737, -196606, 196608, 1610612737, -262142, 196608, 1610612737, -327678, 196608, 1610612737, -393214, 196608, 1610612737, -458750, 196608, 1610612737, -524286, 196608, 1610612737, -589822, 196608, 1610612737, -655358, 196608, 1610612737, -720894, 196608, 1610612737, -786430, 0, 2, -196612, 0, 2, -131076, 196608, 1610612737, -65540, 196608, 1610612737, -4, 196608, 1610612737, 65532, 0, 1610612738, 65533, 262144, 805306369, 2, 327680, 805306369, -196617, 65536, 0, -196616, 0, 805306368, -196618, 0, 0, -196623, 0, 0, -196622, 0, 805306368, -196629, 393216, 3, -720916, 0, 1610612736, -786452, 65536, 1610612736, -851988, 65536, 1342177280, -917524, 0, 1342177280, -1245204, 0, 0, -1245203, 65536, 0, -1245202, 65536, 0, -1245201, 65536, 0, -1245200, 65536, 0, -1245199, 65536, 0, -1245198, 0, 805306368, -786429, 0, 1342177282, -720893, 196608, 1342177281, -655357, 196608, 1342177281, -589821, 196608, 1342177281, -524285, 196608, 1342177281, -458749, 196608, 1342177281, -393213, 196608, 1342177281, -327677, 196608, 1342177281, -262141, 196608, 1342177281, -196605, 196608, 1342177281, -131069, 196608, 1342177281, -65533, 196608, 1342177281, 3, 0, 805306370, -393243, 0, 1610612736, -458779, 65536, 1610612736, -524315, 65536, 1342177280, -589851, 0, 1342177280, -1048603, 0, 1610612736, -1114139, 65536, 1610612736, -1179675, 65536, 1342177280, -1245211, 0, 1342177280, -1376264, 393216, 3, -1507330, 393216, 3, -1638398, 393216, 3, -1769465, 393216, 3, -1966070, 393216, 3, -2031600, 393216, 3, -2097132, 0, 0, -2097129, 0, 805306368, -2097131, 65536, 0, -2097130, 65536, 0)
+
+[node name="White player" parent="." instance=ExtResource("2_tjv37")]
+position = Vector2(1, -16)
+
+[node name="Portal" parent="." instance=ExtResource("3_sg444")]
+position = Vector2(376, -169.00003)
+rotation = -0.8471186
+
+[node name="Killzone" parent="." instance=ExtResource("4_v8la1")]
+position = Vector2(1, 60)

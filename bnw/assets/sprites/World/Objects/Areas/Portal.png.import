@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1f7ej7b40t61"
-path="res://.godot/imported/White Idle.png-e24beb778606a1e897186f28472fcea5.ctex"
+uid="uid://diyur6js2fgt8"
+path="res://.godot/imported/Portal.png-26c9d26b3ec8bca14dd9f3d7c6106072.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Characters/White/White Idle.png"
-dest_files=["res://.godot/imported/White Idle.png-e24beb778606a1e897186f28472fcea5.ctex"]
+source_file="res://assets/sprites/World/Objects/Areas/Portal.png"
+dest_files=["res://.godot/imported/Portal.png-26c9d26b3ec8bca14dd9f3d7c6106072.ctex"]
 
 [params]
 
