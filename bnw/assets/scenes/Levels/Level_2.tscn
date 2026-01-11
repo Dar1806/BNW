@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 [gd_scene load_steps=7 format=3 uid="uid://c7unyp7al2fos"]
+=======
+[gd_scene load_steps=8 format=3 uid="uid://c7unyp7al2fos"]
+>>>>>>> dev
 
 [ext_resource type="Texture2D" uid="uid://bfehstbpc3r3v" path="res://assets/sprites/World/Tilesets/Map_Tileset.png" id="1_b4kc7"]
 [ext_resource type="PackedScene" uid="uid://dkhxpy6ipfe3l" path="res://assets/scenes/Characters/white_player.tscn" id="2_tjv37"]
 [ext_resource type="PackedScene" uid="uid://dxd7gujsicimq" path="res://assets/scenes/Props/portal.tscn" id="3_sg444"]
 [ext_resource type="PackedScene" uid="uid://dxlegtf5nc7da" path="res://assets/scenes/Props/killzone.tscn" id="4_v8la1"]
+<<<<<<< HEAD
+=======
+[ext_resource type="PackedScene" uid="uid://bravo12yathsd" path="res://assets/scenes/Props/spike.tscn" id="5_sgptu"]
+>>>>>>> dev
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sg444"]
 texture = ExtResource("1_b4kc7")
@@ -59,3 +67,33 @@ rotation = -0.8471186
 
 [node name="Killzone" parent="." instance=ExtResource("4_v8la1")]
 position = Vector2(1, 60)
+<<<<<<< HEAD
+=======
+
+[node name="Spike" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(-213, -246)
+
+[node name="Spike3" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(-318, -124)
+
+[node name="Spike4" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(-234, -184)
+
+[node name="Spike5" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(-318, -244)
+
+[node name="Spike6" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(19, -137)
+rotation = -1.5707964
+
+[node name="Spike7" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(19, -127)
+rotation = -1.5707964
+
+[node name="Spike8" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(19, -117)
+rotation = -1.5707964
+
+[node name="Spike2" parent="." instance=ExtResource("5_sgptu")]
+position = Vector2(-183, -246)
+>>>>>>> dev
