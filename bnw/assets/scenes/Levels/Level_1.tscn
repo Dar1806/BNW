@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://uf8mjpw7e12q"]
+[gd_scene load_steps=8 format=3 uid="uid://uf8mjpw7e12q"]
 
 [ext_resource type="Texture2D" uid="uid://bfehstbpc3r3v" path="res://assets/sprites/World/Tilesets/Map_Tileset.png" id="1_dis88"]
+[ext_resource type="Script" uid="uid://gfguyk8j5wyy" path="res://scripts/level_1.gd" id="1_pr5vo"]
 [ext_resource type="PackedScene" uid="uid://dkhxpy6ipfe3l" path="res://assets/scenes/Characters/white_player.tscn" id="2_5gf0t"]
 [ext_resource type="PackedScene" uid="uid://dxd7gujsicimq" path="res://assets/scenes/Props/portal.tscn" id="3_takyh"]
 [ext_resource type="PackedScene" uid="uid://dxlegtf5nc7da" path="res://assets/scenes/Props/killzone.tscn" id="4_f2ocm"]
@@ -35,6 +36,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_5gf0t")
 
 [node name="Level_1" type="Node2D"]
+script = ExtResource("1_pr5vo")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_j62u1")

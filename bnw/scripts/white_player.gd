@@ -68,12 +68,4 @@ func jump():
 				velocity.x = -direction * wall_pushback
 				
 func respawn():
-<<<<<<< HEAD
-	var current_scene_file = get_tree().current_scene.scene_file_path
-	if current_scene_file == "res://assets/scenes/Levels/Level_1.tscn":
-		self.global_position = Vector2(0, -50);
-	if current_scene_file == "res://assets/scenes/Levels/Level_2.tscn":
-		self.global_position = Vector2(0, -50);
-=======
 	self.global_position = Vector2(0, -50);
->>>>>>> dev
