@@ -72,4 +72,4 @@ func respawn():
 	if current_scene_file == "res://assets/scenes/Levels/Level_1.tscn":
 		self.global_position = Vector2(0, -50);
 	if current_scene_file == "res://assets/scenes/Levels/Level_2.tscn":
-		self.global_position = Vector2(-130, -17);
+		self.global_position = Vector2(0, -50);
